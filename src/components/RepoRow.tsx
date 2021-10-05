@@ -20,6 +20,10 @@ interface IRepo{
     }
   }
 
+/**
+ * display the details of repository row
+ * @param repo 
+ */
 const RepoRow : React.FC<IRepo> = ({repo})=>{
     return(
         <div className="Row">

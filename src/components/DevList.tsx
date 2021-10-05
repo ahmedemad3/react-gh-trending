@@ -3,7 +3,9 @@ import DevRow from './DevRow';
 import { IState as Props } from './../App';
 import { createBrowserHistory } from 'history';
 
-
+/**
+ * create function comp. to list developes
+ */
 interface IProps {
     developers: Props["developers"]
 }

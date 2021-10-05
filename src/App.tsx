@@ -53,6 +53,9 @@ function App() {
     fetchRepoList();
   }, [])
   
+  /**
+   * fetchRepoList
+   */
   function fetchRepoList(){
     setShowRepo(true);
     setActive(1);
@@ -65,6 +68,9 @@ function App() {
     });
   }
 
+  /**
+   * fetchDeveloperList
+   */
   function fetchDeveloperList(){
     console.log("fetchDevelopers : ");
     setShowRepo(false);

@@ -5,6 +5,11 @@ import { IState as Props } from './../App';
 interface IProps {
     repositories: Props["repositories"]
 }
+
+/**
+ * create function comp. to list repositories
+ * @param repositories
+ */
 const RepoList : React.FC<IProps> =  ({repositories})=>{
     const renderRepoList = (): JSX.Element[] => {
         return repositories.map((repo) => {

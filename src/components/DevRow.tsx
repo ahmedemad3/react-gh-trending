@@ -17,7 +17,10 @@ interface IDev{
     }
   }
 
-
+/**
+ * display the details of developer row
+ * @param dev 
+ */
   const DevRow : React.FC<IDev> = ({dev})=>{
     return(
         <div className="Row">
